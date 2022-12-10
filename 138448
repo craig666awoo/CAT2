@@ -1,4 +1,5 @@
-1.START
+Question 1.
+  START
   INPUT Fah
   Cel = 5/9 * (Fah-32)
   PRINT Cel
@@ -15,4 +16,29 @@
   END IF
   STOP
   
-2.
+  
+Question 3.
+#include<iostream>
+using namespace std;
+int checkEven(int);
+int checkEven(int a){
+     int i;
+     i = a%2==0;
+     return i;
+}
+
+int main()
+{
+    bool even;
+    int num;
+    cout<<"Input num";
+    cin>>num;
+    even = checkEven(num);
+    
+    if (even == true){
+    cout<< "Even Number";
+    }
+    else
+    cout<<"Odd Number";
+}
+
