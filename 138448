@@ -74,6 +74,13 @@ int main()
 }
 
 
-
-
-Question 4.
+Question 4. part 2
+a) using namespace std; - outermost namespace scope where functions are defined.
+b) int main(){
+    int num =0 // local scope - variable defined inside a function
+    }
+c) int sum(int, int); - declaring a function
+d) float average(int x, int y){
+    int x = 0; 
+    int y = 1;  // function scope - variable declared inside a function is only accessible within the function
+    }
