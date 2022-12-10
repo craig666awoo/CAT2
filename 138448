@@ -1,9 +1,11 @@
-Question 1.
+Question 1. part 1
   START
   INPUT Fah
   Cel = 5/9 * (Fah-32)
   PRINT Cel
   STOP
+  
+  part 2
   
   START
   INPUT num1,num2,num3
@@ -17,7 +19,7 @@ Question 1.
   STOP
   
   
-Question 3.
+Question 3. part 1
 #include<iostream>
 using namespace std;
 int checkEven(int);
@@ -42,3 +44,36 @@ int main()
     cout<<"Odd Number";
 }
 
+part 2
+
+#include<iostream>
+using namespace std;
+int max(int, int, int);
+int max(int a, int b, int c){
+    if(a>b and a>c){
+        return a;
+    }
+    else if(b>a and b>c){
+        return b;
+    }    
+    else{
+        return c;
+    }
+    }
+
+
+int main()
+{
+    int num1,num2,num3,maximum;
+    cout<<"Input three numbers";
+    cin>>num1>>num2>>num3;
+    
+    maximum=max(num1,num2,num3);
+    cout<<"maximum number is "<<maximum;
+    
+}
+
+
+
+
+Question 4.
